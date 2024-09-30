@@ -1,0 +1,143 @@
+.hero-container {
+    background-image: url('https://cdn.pixabay.com/animation/2023/03/19/02/34/02-34-11-741_512.gif');
+    max-width: 1200%;
+    margin: 0 auto;
+    padding: 20px;
+    color: gold;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    background-color: #f39c12;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, transform 0.3s;
+    min-width: 100px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #e67e22;
+    transform: translateY(-3px);
+}
+
+.center-text {
+    text-align: center;
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+.right-image img {
+    display: block;
+    margin: 20px auto;
+}
+
+.left-text {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.content {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.content a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.tools a {
+    margin: 10px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.stats img {
+    margin: 10px;
+    max-width: 300px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .center-text {
+        font-size: 1.5rem;
+    }
+
+    .right-image img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .stats img {
+        max-width: 200px;
+    }
+
+    .tools {
+        justify-content: center;
+    }
+
+    .left-text,
+    .content {
+        text-align: center;
+    }
+
+    .btn {
+        padding: 5px 10px;
+        font-size: 1rem;
+        flex: 1 1 auto;
+        min-width: 80px;
+    }
+
+    .button-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .center-text {
+        font-size: 1.2rem;
+    }
+
+    .right-image img {
+        max-width: 200px;
+    }
+
+    .content a {
+        font-size: 0.9rem;
+    }
+
+    .tools a img {
+        width: 30px;
+        height: 30px;
+    }
+}

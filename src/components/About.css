@@ -1,0 +1,18 @@
+
+.about-container {
+/* background-image: url('https://cdn.pixabay.com/animation/2023/03/19/02/34/02-34-11-741_512.gif'); */
+        color: whitesmoke;
+        padding: 2rem;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 1.2rem;
+}
+
+.about-title {
+font-size: 2.5rem;
+    margin-bottom: 1rem;
+    
+}
