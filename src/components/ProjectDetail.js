@@ -46,8 +46,8 @@ const projectData = [
 ];
 
 const ProjectDetail = () => {
-  const { id } = useParams(); // Get the project id from the URL parameters
-  const project = projectData.find((p) => p.id === id); // Find the project by id
+  const { id } = useParams(); 
+  const project = projectData.find((p) => p.id === id); 
 
   if (!project) {
     return <div>Project not found!</div>;

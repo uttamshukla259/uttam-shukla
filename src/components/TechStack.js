@@ -8,11 +8,7 @@ const techStackData = [
     name: "C Language",
     imgSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg",
   },
-  {
-    name: "TypeScript",
-    imgSrc:
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
-  },
+
   {
     name: "Express",
     imgSrc:
@@ -27,21 +23,9 @@ const techStackData = [
     name: "Postman",
     imgSrc: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
   },
-  {
-    name: "Dart",
-    imgSrc:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg",
-  },
-  {
-    name: "Flutter",
-    imgSrc:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-plain.svg",
-  },
-  {
-    name: "React Native",
-    imgSrc:
-      "https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png",
-  },
+ 
+ 
+  
   {
     name: "HTML",
     imgSrc:
@@ -62,11 +46,7 @@ const techStackData = [
     imgSrc:
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
   },
-  {
-    name: "Sass",
-    imgSrc:
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
-  },
+ 
   {
     name: "JavaScript",
     imgSrc:
@@ -92,11 +72,7 @@ const techStackData = [
     imgSrc:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
   },
-  {
-    name: "Heroku",
-    imgSrc:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg",
-  },
+ 
   {
     name: "Git",
     imgSrc:

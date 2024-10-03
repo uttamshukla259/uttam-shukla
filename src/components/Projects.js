@@ -5,6 +5,24 @@ import "./Projects.css";
 const Projects = () => {
   const projects = [
     {
+      name: "Student Result Management System",
+      description: `Student Result Management System (SRMS) is an application designed to manage and display the academic results of students efficiently. It simplifies the process for educators and administrators to enter and maintain student grades while offering students easy access to their performance.
+      
+Admin/Teacher Features:
+- User authentication for secure access.
+- Manage student records (create, update, delete).
+- Enter and modify student grades.
+- Generate report cards.
+- Performance analytics (e.g., class averages, pass rates).
+
+Student Features:
+- Secure login to view personal results.
+- Access grades for various subjects and exams.
+- Download and print report cards.`,
+      github: "https://github.com/uttamshukla259/SRMS-MERN",
+      live: "https://project2.com",
+    },
+    {
       name: "Employee Management System",
       description:
         "A web-based employee management system built with React and Node.js to handle employee data efficiently.",
@@ -17,11 +35,18 @@ const Projects = () => {
       github: "https://github.com/uttam/project2",
       live: "https://project2.com", // External link
     },
+    {
+      name: "Weather App",
+      description:
+        "A frontend project built with HTML, CSS, JS using weather API.",
+      github: "https://github.com/uttamshukla259/Weather-App",
+      live: "https://dancing-swan-c11276.netlify.app/",
+    },
   ];
 
   return (
     <section id="projects" className="projects" data-aos="fade-up">
-      <h2>Projects</h2>
+      <h2 className="project1">Projects</h2>
       <div className="project-cards">
         {projects.map((project, index) => (
           <motion.div
@@ -44,7 +69,7 @@ const Projects = () => {
               Live Demo
             </a>
 
-            {/* Internal Navigation using <a> tags instead of React Router */}
+            {/* Internal Navigation using <a> tags */}
             <a href={`/projects/${index}`} className="project-link">
               Details
             </a>

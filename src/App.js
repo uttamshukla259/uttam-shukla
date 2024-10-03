@@ -1,4 +1,6 @@
 
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -12,15 +14,15 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <Navbar />
+       <Navbar />
         <Hero />
     < About /> 
-        <Projects />
+        <Projects /> 
  <ProjectDetail />
- <ProjectDetail />
+
    <TechStack />
       <Resume />
-      <Contact />
+      <Contact /> 
     </div>
   
   );

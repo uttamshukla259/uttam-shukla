@@ -6,7 +6,9 @@
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 5rem;
 }
-
+.project1{
+    color: gold;
+}
 .project-card {
     border: 1px solid #ddd;
     border-radius: 10px;
