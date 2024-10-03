@@ -15,6 +15,7 @@
     }
 
     .navbar-nav {
+        /* background-color: aliceblue; */
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -31,7 +32,7 @@
     }
 
     .navbar-nav .nav-link {
-        font-size: 10px;
+        font-size: 12px;
         /* Adjusted font size for better readability */
         padding: 8px;
         color: #fff;
