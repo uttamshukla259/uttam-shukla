@@ -1,12 +1,9 @@
 /* Mobile Styles */
-@media (max-width: 768px) {
-
-    /* Hide the brand "Uttam Shukla" */
+@media (max-width: 720px) {
     .navbar-brand {
         display: none;
     }
 
-    /* Ensure navbar items are visible in a row */
     .navbar-collapse {
         display: flex !important;
         justify-content: center;
@@ -15,7 +12,6 @@
     }
 
     .navbar-nav {
-        /* background-color: aliceblue; */
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -28,13 +24,11 @@
     .navbar-nav .nav-item {
         flex: 1;
         text-align: center;
-        margin: 0 2px;
     }
 
     .navbar-nav .nav-link {
         font-size: 12px;
-        /* Adjusted font size for better readability */
-        padding: 8px;
+        padding: 5px;
         color: #fff;
         text-decoration: none;
     }
@@ -45,7 +39,6 @@
         transition: background-color 0.3s ease-in-out;
     }
 
-    /* Hide the navbar-toggler */
     .navbar-toggler {
         display: none;
     }

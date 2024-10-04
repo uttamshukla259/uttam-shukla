@@ -40,10 +40,10 @@ const Hero = () => {
         transition={{ duration: 1.2, delay: 0.5 }}
         className="left-text"
       >
-        <img
+        {/* <img
           src="https://komarev.com/ghpvc/?username=uttamshukla259&label=Profile%20views&color=0e75b6&style=flat"
           alt="Profile Views"
-        />
+        /> */}
       </motion.p>
 
       <motion.div
@@ -110,7 +110,7 @@ const Hero = () => {
         </motion.p>
       </div>
 
-      <div className="stats">
+      {/* <div className="stats">
         <img
           src="https://github-readme-stats.vercel.app/api/top-langs?username=uttamshukla259&show_icons=true&locale=en&layout=compact"
           alt="Top Languages"
@@ -123,7 +123,7 @@ const Hero = () => {
           src="https://github-readme-streak-stats.herokuapp.com/?user=uttamshukla259"
           alt="GitHub Streak Stats"
         />
-      </div>
+      </div> */}
     </section>
   );
 };

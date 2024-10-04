@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -20,6 +21,40 @@ const About = () => {
         Currently, I'm focused on backend development and constantly learning
         new technologies to improve my skills and knowledge in the field.
       </p>
+      <div className="contact-links">
+        <a
+          href="https://www.linkedin.com/in/your-linkedin"
+          className="contact-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin size={40} />
+          <span>LinkedIn</span>
+        </a>
+        <a
+          href="https://github.com/your-github"
+          className="contact-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub size={40} />
+          <span>GitHub</span>
+        </a>
+        <a
+          href="https://twitter.com/your-twitter"
+          className="contact-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaTwitter size={40} />
+          <span>Twitter</span>
+        </a>
+        {/* Email Link */}
+        <a href="mailto:your-email@example.com" className="contact-link">
+          <FaEnvelope size={40} />
+          <span>Email</span>
+        </a>
+      </div>
     </section>
   );
 };
